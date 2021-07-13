@@ -1,0 +1,119 @@
+/*Aca Body*/
+/*Aca Header*/
+.headerCont {
+  background-color: #ffa1a3 !important;
+  .navbar {
+    width: 90%;
+    margin: auto;
+    background-color: #ffa1a3 !important;
+
+    .navbar-brand {
+      transition: all 1s ease;
+      &:hover {
+        -moz-transform: scale(1.2) translate(3px, 0px);
+        -webkit-transform: scale(1.2) translate(3px, 0px);
+        -o-transform: scale(1.2) translate(3px, 0px);
+        -ms-transform: scale(1.2) translate(3px, 0px);
+        transform: scale(1.2) translate(3px, 0px);
+      }
+    }
+    .container-fluid {
+      .navbar-collapse {
+        display: flex;
+        justify-content: flex-end;
+      }
+      .nav-link {
+        font-family: "Josefin Slab", serif;
+        font-size: x-large;
+        font-weight: bold;
+        color: #ffffff;
+      }
+      .donaCSS {
+        font-family: "Josefin Slab", serif;
+        font-size: x-large;
+        font-weight: bold;
+        color: #ffffff;
+        transition: all 0.5s ease;
+        &:hover {
+          border: none;
+          background-color: #ffc91f;
+          color: #ffffff;
+          border-radius: 3px;
+          box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
+        }
+      }
+    }
+  }
+}
+/*Aca Main*/
+.contCarro {
+  height: 50% !important;
+  font-family: "Josefin Slab", serif;
+  font-size: x-large;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: auto;
+}
+/*Aca Section*/
+.contSection {
+  height: 20% !important;
+  .contImg1 {
+    margin: 20px 0px 10px 0px;
+  }
+  .conText {
+    margin: 15px 0px 10px 0px;
+    font-family: "Josefin Slab", serif;
+    font-size: large;
+    font-weight: bold;
+    color: #ffa1a3;
+  }
+  .botAdopta {
+    margin: 10px;
+    padding: 2px;
+    font-family: "Josefin Slab", serif;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    transition: all 2s ease;
+    &:hover {
+      border: none;
+      background-color: #ffc91f;
+      color: #ffa1a3;
+      border-radius: 3px;
+      box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
+    }
+  }
+}
+/*Aca Footer*/
+.contFooter {
+  height: 10% !important;
+  width: 100% !important;
+  margin: auto;
+  background-color: #ffa1a3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .logFace {
+    margin: 5px;
+    padding: 2px;
+  }
+  .logInsta {
+    margin: 5px;
+    padding: 2px;
+  }
+  .logWp {
+    margin: 5px;
+    padding: 2px;
+  }
+  .Slogan {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  .Local {
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #ffffff;
+  }
+}
