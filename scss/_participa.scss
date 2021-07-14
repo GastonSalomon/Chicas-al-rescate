@@ -45,7 +45,77 @@
     }
   }
 }
-
+/*Aca Main*/
+.contMain {
+  .contTotal {
+    .contHogar {
+      .tiltHogar {
+        font-family: "Josefin Slab", serif;
+        font-size: 350%;
+        font-weight: bold;
+        color: #ffa1a3;
+      }
+      .textHogar {
+        font-family: "Josefin Slab", serif;
+        color: #ffa1a3;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 150%;
+      }
+    }
+    .contReq {
+      background-color: #ffa1a3;
+      .tiltReq {
+        font-family: "Josefin Slab", serif;
+        font-size: 350%;
+        font-weight: bold;
+        color: #ffffff;
+      }
+      .textReq {
+        font-family: "Josefin Slab", serif;
+        color: #ffffff;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 150%;
+      }
+    }
+  }
+  .conTotalV {
+    .contVolun {
+      background-color: #ffa1a3;
+      margin-top: 10px;
+      .tiltVolun {
+        font-family: "Josefin Slab", serif;
+        font-size: 350%;
+        font-weight: bold;
+        color: #ffffff;
+      }
+      .textVolun {
+        font-family: "Josefin Slab", serif;
+        color: #ffffff;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 150%;
+      }
+    }
+    .contReqV {
+      margin-top: 10px;
+      .tiltReqV {
+        font-family: "Josefin Slab", serif;
+        font-size: 350%;
+        font-weight: bold;
+        color: #ffa1a3;
+      }
+      .textReqV {
+        font-family: "Josefin Slab", serif;
+        color: #ffa1a3;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 150%;
+      }
+    }
+  }
+}
 /*Aca Footer*/
 .contFooter {
   height: 10% !important;

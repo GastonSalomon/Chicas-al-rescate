@@ -11540,14 +11540,6 @@ fieldset:disabled .btn {
   margin: 20px 0px 10px 0px;
 }
 
-.contSection .conText {
-  margin: 15px 0px 10px 0px;
-  font-family: "Josefin Slab", serif;
-  font-size: large;
-  font-weight: bold;
-  color: #ffa1a3;
-}
-
 .contSection .botAdopta {
   margin: 10px;
   padding: 2px;
@@ -11938,6 +11930,150 @@ fieldset:disabled .btn {
           box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
 }
 
+/*Aca Main*/
+.contForm .formAdopcion {
+  margin-left: 40px;
+  margin-top: 5px;
+  height: 50%;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
+          box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
+}
+
+.contForm .formAdopcion .titlFormAdopcion {
+  color: #ffa1a3;
+  font-family: "Josefin Slab", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bolder;
+  margin: 5px 0px 10px 0px;
+  padding: 5px;
+  position: relative;
+}
+
+.contForm .formAdopcion .groupName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px 5px 5px 5px;
+  position: relative;
+}
+
+.contForm .formAdopcion .inputNameForm {
+  background: none;
+  font-size: 15px;
+  padding: 0px 0px 5px 0px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ffa1a3;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.contForm .formAdopcion .inputNameForm:focus {
+  outline-style: none;
+  color: #ffc91f;
+}
+
+.contForm .formAdopcion .nombreForm {
+  color: #ffa1a3;
+  font-family: "Josefin Slab", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.contForm .formAdopcion .groupMensaje {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px 5px 5px 5px;
+  position: relative;
+}
+
+.contForm .formAdopcion .textareaForm {
+  background: none;
+  font-size: 15px;
+  padding: 0px 0px 5px 0px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ffa1a3;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.contForm .formAdopcion .textareaForm:focus {
+  outline-style: none;
+  color: #ffc91f;
+}
+
+.contForm .formAdopcion .mensajeForm {
+  color: #ffa1a3;
+  font-family: "Josefin Slab", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.contForm .formAdopcion .inputEnviarForm {
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-size: 15px;
+  margin: 5px 2px 10px 5px;
+  height: 70%;
+  width: 20%;
+  border: none;
+  border-radius: 10px;
+  background: #ffa1a3;
+  background: -webkit-gradient(linear, left top, right top, from(#e69192), color-stop(#bf787a), to(#805051));
+  background: linear-gradient(to right, #e69192, #bf787a, #805051);
+  cursor: pointer;
+}
+
+.contForm .formAdopcion .inputBorrarForm {
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-size: 15px;
+  margin: 5px 2px 10px 5px;
+  height: 70%;
+  width: 20%;
+  border: none;
+  border-radius: 10px;
+  background: #ffa1a3;
+  background: -webkit-gradient(linear, left top, right top, from(#e69192), color-stop(#bf787a), to(#805051));
+  background: linear-gradient(to right, #e69192, #bf787a, #805051);
+  cursor: pointer;
+}
+
+.titlUbic {
+  font-family: "Josefin Slab", serif;
+  font-size: 250%;
+  font-weight: bold;
+  color: #ffa1a3;
+}
+
 /*Aca Footer*/
 .contFooter {
   height: 10% !important;
@@ -12042,53 +12178,6 @@ fieldset:disabled .btn {
   border: none;
   background-color: #ffc91f;
   color: #ffffff;
-  border-radius: 3px;
-  -webkit-box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
-          box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
-}
-
-/*Aca Main*/
-.contCarro {
-  height: 50% !important;
-  font-family: "Josefin Slab", serif;
-  font-size: x-large;
-  font-weight: bold;
-  border-radius: 5px;
-  margin: auto;
-}
-
-/*Aca Section*/
-.contSection {
-  height: 20% !important;
-}
-
-.contSection .contImg1 {
-  margin: 20px 0px 10px 0px;
-}
-
-.contSection .conText {
-  margin: 15px 0px 10px 0px;
-  font-family: "Josefin Slab", serif;
-  font-size: large;
-  font-weight: bold;
-  color: #ffa1a3;
-}
-
-.contSection .botAdopta {
-  margin: 10px;
-  padding: 2px;
-  font-family: "Josefin Slab", serif;
-  background-color: transparent;
-  border: none;
-  font-weight: bold;
-  -webkit-transition: all 2s ease;
-  transition: all 2s ease;
-}
-
-.contSection .botAdopta:hover {
-  border: none;
-  background-color: #ffc91f;
-  color: #ffa1a3;
   border-radius: 3px;
   -webkit-box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
           box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
@@ -12364,6 +12453,80 @@ fieldset:disabled .btn {
   border-radius: 3px;
   -webkit-box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
           box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
+}
+
+/*Aca Main*/
+.contMain .contTotal .contHogar .tiltHogar {
+  font-family: "Josefin Slab", serif;
+  font-size: 350%;
+  font-weight: bold;
+  color: #ffa1a3;
+}
+
+.contMain .contTotal .contHogar .textHogar {
+  font-family: "Josefin Slab", serif;
+  color: #ffa1a3;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 150%;
+}
+
+.contMain .contTotal .contReq {
+  background-color: #ffa1a3;
+}
+
+.contMain .contTotal .contReq .tiltReq {
+  font-family: "Josefin Slab", serif;
+  font-size: 350%;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.contMain .contTotal .contReq .textReq {
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 150%;
+}
+
+.contMain .conTotalV .contVolun {
+  background-color: #ffa1a3;
+  margin-top: 10px;
+}
+
+.contMain .conTotalV .contVolun .tiltVolun {
+  font-family: "Josefin Slab", serif;
+  font-size: 350%;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.contMain .conTotalV .contVolun .textVolun {
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 150%;
+}
+
+.contMain .conTotalV .contReqV {
+  margin-top: 10px;
+}
+
+.contMain .conTotalV .contReqV .tiltReqV {
+  font-family: "Josefin Slab", serif;
+  font-size: 350%;
+  font-weight: bold;
+  color: #ffa1a3;
+}
+
+.contMain .conTotalV .contReqV .textReqV {
+  font-family: "Josefin Slab", serif;
+  color: #ffa1a3;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 150%;
 }
 
 /*Aca Footer*/

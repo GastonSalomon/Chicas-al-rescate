@@ -45,45 +45,7 @@
     }
   }
 }
-/*Aca Main*/
-.contCarro {
-  height: 50% !important;
-  font-family: "Josefin Slab", serif;
-  font-size: x-large;
-  font-weight: bold;
-  border-radius: 5px;
-  margin: auto;
-}
-/*Aca Section*/
-.contSection {
-  height: 20% !important;
-  .contImg1 {
-    margin: 20px 0px 10px 0px;
-  }
-  .conText {
-    margin: 15px 0px 10px 0px;
-    font-family: "Josefin Slab", serif;
-    font-size: large;
-    font-weight: bold;
-    color: #ffa1a3;
-  }
-  .botAdopta {
-    margin: 10px;
-    padding: 2px;
-    font-family: "Josefin Slab", serif;
-    background-color: transparent;
-    border: none;
-    font-weight: bold;
-    transition: all 2s ease;
-    &:hover {
-      border: none;
-      background-color: #ffc91f;
-      color: #ffa1a3;
-      border-radius: 3px;
-      box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
-    }
-  }
-}
+
 /*Aca Footer*/
 .contFooter {
   height: 10% !important;

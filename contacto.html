@@ -75,78 +75,74 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div class="col-md-10 d-flex flex-row">
-        <div class="col-md-5 d-flex flex-column bd-highlight mb-1">
-          <div class="p-2 bd-highlight">
-            <form class="mt-0 formAdopcion" action="">
-              <h2 class="titlFormAdopcion">Formulario de Contacto</h2>
-              <div class="groupName">
-                <input
-                  class="inputNameForm"
-                  type="text"
-                  id="Nombre"
-                  name="Nombre"
-                  placeholder=""
-                  required
-                />
-                <label class="nombreForm" for="">Nombre</label>
-              </div>
-              <div class="groupMensaje">
-                <textarea
-                  class="textareaForm"
-                  name="Mensaje"
-                  id="Mensaje"
-                  cols="30"
-                  rows="3"
-                  placeholder=""
-                  required
-                ></textarea>
-                <label class="mensajeForm" for="">Mensaje</label>
-              </div>
-              <div class="input">
-                <input class="inputEnviarForm" type="submit" value="Enviar" />
-                <input class="inputBorrarForm" type="reset" value="Borrar" />
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-5 d-flex flex-column bd-highlight mb-4">
-          <div class="p-2 bd-highlight">
-            <h3 class="text-uppercase">Nuestra ubicación</h3>
-          </div>
-          <div class="mapouter p-2 bd-highlight">
-            <div class="gmap_canvas">
-              <iframe
-                width="500"
-                height="400"
-                id="gmap_canvas"
-                src="https://maps.google.com/maps?q=blanco%20encalada%205678&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                frameborder="0"
-                scrolling="no"
-                marginheight="0"
-                marginwidth="0"
-              ></iframe
-              ><a href="https://fmovies2.org"></a><br /><style>
-                .mapouter {
-                  position: relative;
-                  text-align: right;
-                  height: 400px;
-                  width: 500px;
-                }</style
-              ><a href="https://www.embedgooglemap.net">google maps api html</a
-              ><style>
-                .gmap_canvas {
-                  overflow: hidden;
-                  background: none !important;
-                  height: 400px;
-                  width: 500px;
-                }
-              </style>
+    <main class="col-md-10 d-flex flex-row">
+      <div class="col-md-5 d-flex flex-column bd-highlight mb-1 ">
+        <div class="p-2 bd-highlight contForm">
+          <form class="formAdopcion" action="">
+            <h2 class="titlFormAdopcion">Formulario de Contacto</h2>
+            <div class="groupName">
+              <input
+                class="inputNameForm"
+                type="text"
+                id="Nombre"
+                name="Nombre"
+                placeholder=""
+                required
+              />
+              <label class="nombreForm" for="">Nombre</label>
             </div>
+            <div class="groupMensaje">
+              <textarea
+                class="textareaForm"
+                name="Mensaje"
+                id="Mensaje"
+                cols="30"
+                rows="3"
+                placeholder=""
+                required
+              ></textarea>
+              <label class="mensajeForm" for="">Mensaje</label>
+            </div>
+            <div class="input">
+              <input class="inputEnviarForm" type="submit" value="Enviar" />
+              <input class="inputBorrarForm" type="reset" value="Borrar" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-5 d-flex flex-column bd-highlight mb-4">
+        <div class="p-2 bd-highlight">
+          <span class="text-uppercase titlUbic">Nuestra ubicación</span>
+        </div>
+        <div class="mapouter p-2 bd-highlight">
+          <div class="gmap_canvas">
+            <iframe
+              width="500"
+              height="400"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=blanco%20encalada%205678&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe
+            ><a href="https://fmovies2.org"></a><br /><style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: 400px;
+                width: 500px;
+              }</style
+            ><a href="https://www.embedgooglemap.net">google maps api html</a
+            ><style>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 400px;
+                width: 500px;
+              }
+            </style>
           </div>
-          <div class="p-2 bd-highlight">Flex item 1</div>
-          <div class="p-2 bd-highlight">Flex item 1</div>
         </div>
       </div>
     </main>
