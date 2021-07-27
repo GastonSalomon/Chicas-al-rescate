@@ -52,20 +52,44 @@
   font-size: x-large;
   font-weight: bold;
   border-radius: 5px;
-  margin: auto;
+  margin-top: 20px;
+  .textCarro {
+    font-family: "Josefin Slab", serif;
+    font-size: 150%;
+    font-weight: 900;
+    color: #ffc91f;
+  }
 }
 /*Aca Section*/
 .contSection {
   height: 20% !important;
   .contImg1 {
-    margin: 20px 0px 10px 0px;
+    margin: 20px 0px 20px 0px;
   }
   .conText {
     .nameAdop {
+      font-family: "Josefin Slab", serif;
+      font-size: 350%;
+      font-weight: bold;
+      color: #ffa1a3;
+      margin-top: 20px;
     }
     .nameAdopt {
+      color: #ffa1a3;
+      font-family: "Josefin Slab", serif;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: bolder;
+      margin: 5px 0px 10px 0px;
+      padding: 5px;
+      position: relative;
     }
     .textAdop {
+      font-family: "Josefin Slab", serif;
+      color: #ffa1a3;
+      font-weight: bold;
+      font-style: oblique;
+      font-size: 150%;
     }
   }
   .botAdopta {

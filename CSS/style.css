@@ -11528,7 +11528,14 @@ fieldset:disabled .btn {
   font-size: x-large;
   font-weight: bold;
   border-radius: 5px;
-  margin: auto;
+  margin-top: 20px;
+}
+
+.contCarro .textCarro {
+  font-family: "Josefin Slab", serif;
+  font-size: 150%;
+  font-weight: 900;
+  color: #ffc91f;
 }
 
 /*Aca Section*/
@@ -11537,7 +11544,34 @@ fieldset:disabled .btn {
 }
 
 .contSection .contImg1 {
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 20px 0px;
+}
+
+.contSection .conText .nameAdop {
+  font-family: "Josefin Slab", serif;
+  font-size: 350%;
+  font-weight: bold;
+  color: #ffa1a3;
+  margin-top: 20px;
+}
+
+.contSection .conText .nameAdopt {
+  color: #ffa1a3;
+  font-family: "Josefin Slab", serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bolder;
+  margin: 5px 0px 10px 0px;
+  padding: 5px;
+  position: relative;
+}
+
+.contSection .conText .textAdop {
+  font-family: "Josefin Slab", serif;
+  color: #ffa1a3;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 150%;
 }
 
 .contSection .botAdopta {
@@ -12294,56 +12328,75 @@ fieldset:disabled .btn {
 
 /*Aca Main*/
 .contMain .contImgGroup {
-  margin: 5px, 0px, 5px, 0px;
+  margin: 20px;
 }
 
 /*Aca Section*/
 .contSection .contMision {
-  height: 300px;
   width: 400px;
+  height: 600px;
   background-color: #ffa1a3;
-  margin: auto;
-  color: #ffffff;
+  margin: 10px, 10px, 10px, 10px;
 }
 
 .contSection .contMision .textMision {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: x-large;
-  font-weight: bold;
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 200%;
 }
 
 .contSection .contMision .parrMision {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: medium;
-  font-weight: normal;
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 150%;
 }
 
 .contSection .contObj {
-  height: 300px;
   width: 400px;
-  background-color: #ffffff;
-  margin: auto;
-  color: #ffa1a3;
+  height: 600px;
+  margin: 10px, 10px, 10px, 10px;
 }
 
 .contSection .contObj .textObj {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: x-large;
-  font-weight: bold;
+  font-family: "Josefin Slab", serif;
+  color: #ffa1a3;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 200%;
 }
 
 .contSection .contObj .parrObj {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: medium;
-  font-weight: normal;
+  font-family: "Josefin Slab", serif;
+  color: #ffa1a3;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 150%;
+}
+
+.contSection .conTrabajo {
+  height: 300px;
+  width: 900px;
+  margin: 20px, 10px, 10px, 10px;
+}
+
+.contSection .conTrabajo .texTrab {
+  font-family: "Josefin Slab", serif;
+  color: #ffa1a3;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 200%;
+}
+
+.contSection .conTrabajo .parrTrab {
+  font-family: "Josefin Slab", serif;
+  color: #ffa1a3;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 150%;
 }
 
 /*Aca Footer*/

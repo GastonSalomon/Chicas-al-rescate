@@ -48,45 +48,69 @@
 /*Aca Main*/
 .contMain {
   .contImgGroup {
-    margin: 5px, 0px, 5px, 0px;
+    margin: 20px;
   }
 }
 /*Aca Section*/
 .contSection {
   .contMision {
-    height: 300px;
     width: 400px;
+    height: 600px;
     background-color: #ffa1a3;
-    margin: auto;
-    color: #ffffff;
+    margin: 10px, 10px, 10px, 10px;
 
     .textMision {
-      align-items: center;
-      font-size: x-large;
-      font-weight: bold;
+      font-family: "Josefin Slab", serif;
+      color: #ffffff;
+      font-weight: bolder;
+      font-style: normal;
+      font-size: 200%;
     }
     .parrMision {
-      align-items: center;
-      font-size: medium;
-      font-weight: normal;
+      font-family: "Josefin Slab", serif;
+      color: #ffffff;
+      font-weight: bolder;
+      font-style: oblique;
+      font-size: 150%;
     }
   }
   .contObj {
-    height: 300px;
     width: 400px;
-    background-color: #ffffff;
-    margin: auto;
-    color: #ffa1a3;
-
+    height: 600px;
+    margin: 10px, 10px, 10px, 10px;
     .textObj {
-      align-items: center;
-      font-size: x-large;
-      font-weight: bold;
+      font-family: "Josefin Slab", serif;
+      color: #ffa1a3;
+      font-weight: bolder;
+      font-style: normal;
+      font-size: 200%;
     }
     .parrObj {
-      align-items: center;
-      font-size: medium;
-      font-weight: normal;
+      font-family: "Josefin Slab", serif;
+      color: #ffa1a3;
+      font-weight: bolder;
+      font-style: oblique;
+      font-size: 150%;
+    }
+  }
+  .conTrabajo {
+    height: 300px;
+    width: 900px;
+    margin: 20px, 10px, 10px, 10px;
+
+    .texTrab {
+      font-family: "Josefin Slab", serif;
+      color: #ffa1a3;
+      font-weight: bolder;
+      font-style: normal;
+      font-size: 200%;
+    }
+    .parrTrab {
+      font-family: "Josefin Slab", serif;
+      color: #ffa1a3;
+      font-weight: bolder;
+      font-style: oblique;
+      font-size: 150%;
     }
   }
 }
