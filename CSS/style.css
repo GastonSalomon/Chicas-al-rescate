@@ -11719,7 +11719,35 @@ fieldset:disabled .btn {
   font-size: 150%;
 }
 
-.contMain .contForm .formAdopcion {
+.contMain .ContUyC {
+  background-color: #ffa1a3;
+}
+
+.contMain .ContUyC .TitlUyC {
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 300%;
+}
+
+.contMain .ContUyC .textUyC {
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 150%;
+  text-align: center;
+}
+
+.contMain .ContUyC .contImg1 .UyC1 {
+  margin: 2px, 5px, 5px, 5px;
+}
+
+.contMain .ContUyC .contImg1 .UyC2 {
+  margin: 5px, 5px, 5px, 5px;
+}
+
+.contMain .ContUyC .contForm .formAdopcion {
   margin-left: 40px;
   margin-top: 5px;
   height: 50%;
@@ -11740,7 +11768,7 @@ fieldset:disabled .btn {
           box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
 }
 
-.contMain .contForm .formAdopcion .titlFormAdopcion {
+.contMain .ContUyC .contForm .formAdopcion .titlFormAdopcion {
   color: #ffa1a3;
   font-family: "Josefin Slab", serif;
   font-size: 40px;
@@ -11751,7 +11779,7 @@ fieldset:disabled .btn {
   position: relative;
 }
 
-.contMain .contForm .formAdopcion .groupName {
+.contMain .ContUyC .contForm .formAdopcion .groupName {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11763,7 +11791,7 @@ fieldset:disabled .btn {
   position: relative;
 }
 
-.contMain .contForm .formAdopcion .inputNameForm {
+.contMain .ContUyC .contForm .formAdopcion .inputNameForm {
   background: none;
   font-size: 15px;
   padding: 0px 0px 5px 0px;
@@ -11775,12 +11803,12 @@ fieldset:disabled .btn {
   transition: all 0.5s ease;
 }
 
-.contMain .contForm .formAdopcion .inputNameForm:focus {
+.contMain .ContUyC .contForm .formAdopcion .inputNameForm:focus {
   outline-style: none;
   color: #ffc91f;
 }
 
-.contMain .contForm .formAdopcion .nombreForm {
+.contMain .ContUyC .contForm .formAdopcion .nombreForm {
   color: #ffa1a3;
   font-family: "Josefin Slab", serif;
   font-size: 20px;
@@ -11788,7 +11816,7 @@ fieldset:disabled .btn {
   font-weight: bolder;
 }
 
-.contMain .contForm .formAdopcion .groupMensaje {
+.contMain .ContUyC .contForm .formAdopcion .groupMensaje {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11800,7 +11828,7 @@ fieldset:disabled .btn {
   position: relative;
 }
 
-.contMain .contForm .formAdopcion .textareaForm {
+.contMain .ContUyC .contForm .formAdopcion .textareaForm {
   background: none;
   font-size: 15px;
   padding: 0px 0px 5px 0px;
@@ -11812,12 +11840,12 @@ fieldset:disabled .btn {
   transition: all 0.5s ease;
 }
 
-.contMain .contForm .formAdopcion .textareaForm:focus {
+.contMain .ContUyC .contForm .formAdopcion .textareaForm:focus {
   outline-style: none;
   color: #ffc91f;
 }
 
-.contMain .contForm .formAdopcion .mensajeForm {
+.contMain .ContUyC .contForm .formAdopcion .mensajeForm {
   color: #ffa1a3;
   font-family: "Josefin Slab", serif;
   font-size: 20px;
@@ -11825,7 +11853,7 @@ fieldset:disabled .btn {
   font-weight: bolder;
 }
 
-.contMain .contForm .formAdopcion .inputEnviarForm {
+.contMain .ContUyC .contForm .formAdopcion .inputEnviarForm {
   font-family: "Josefin Slab", serif;
   color: #ffffff;
   font-size: 15px;
@@ -11840,7 +11868,7 @@ fieldset:disabled .btn {
   cursor: pointer;
 }
 
-.contMain .contForm .formAdopcion .inputBorrarForm {
+.contMain .ContUyC .contForm .formAdopcion .inputBorrarForm {
   font-family: "Josefin Slab", serif;
   color: #ffffff;
   font-size: 15px;
