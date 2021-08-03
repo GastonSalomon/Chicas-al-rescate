@@ -12479,6 +12479,75 @@ fieldset:disabled .btn {
           box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
 }
 
+/*Aca Main*/
+.ContMain {
+  height: 100% !important;
+}
+
+.ContMain .contPrin .ConTextPrin {
+  background-color: #ffa1a3;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ContMain .contPrin .ConTextPrin .tiltPrin {
+  font-family: "Josefin Slab", serif;
+  font-size: 250%;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.ContMain .contPrin .ConTextPrin .textPrin {
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 125%;
+}
+
+.ContMain .contSec {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.ContMain .contSec .ContBanco .SubContBanco .titlBanco {
+  font-family: "Josefin Slab", serif;
+  color: #ffa1a3;
+  font-weight: bold;
+  font-size: 250%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ContMain .contSec .ContBanco .SubContBanco .subTiltBanco {
+  font-family: "Josefin Slab", serif;
+  color: #ffa1a3;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 125%;
+  text-align: center;
+}
+
+.ContMain .contSec .ContBanco .SubContBanco .textBanco1 {
+  font-family: "Josefin Slab", serif;
+  color: #ffa1a3;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 150%;
+  text-align: center;
+}
+
+.ContMain .contSec .ContBanco .SubContBanco .textBanco {
+  font-family: "Josefin Slab", serif;
+  color: #ffa1a3;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 100%;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
 /*Aca Footer*/
 .contFooter {
   height: 10% !important;

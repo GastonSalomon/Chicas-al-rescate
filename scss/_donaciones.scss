@@ -45,7 +45,72 @@
     }
   }
 }
-
+/*Aca Main*/
+.ContMain {
+  height: 100% !important;
+  .contPrin {
+    .ConTextPrin {
+      background-color: #ffa1a3;
+      text-align: center;
+      margin-top: 10px;
+      .tiltPrin {
+        font-family: "Josefin Slab", serif;
+        font-size: 250%;
+        font-weight: bold;
+        color: #ffffff;
+      }
+      .textPrin {
+        font-family: "Josefin Slab", serif;
+        color: #ffffff;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 125%;
+      }
+    }
+  }
+  .contSec {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    .ContBanco {
+      .SubContBanco {
+        .titlBanco {
+          font-family: "Josefin Slab", serif;
+          color: #ffa1a3;
+          font-weight: bold;
+          font-size: 250%;
+          margin-top: 10px;
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+        .subTiltBanco {
+          font-family: "Josefin Slab", serif;
+          color: #ffa1a3;
+          font-weight: bold;
+          font-style: oblique;
+          font-size: 125%;
+          text-align: center;
+        }
+        .textBanco1 {
+          font-family: "Josefin Slab", serif;
+          color: #ffa1a3;
+          font-weight: bold;
+          font-style: normal;
+          font-size: 150%;
+          text-align: center;
+        }
+        .textBanco {
+          font-family: "Josefin Slab", serif;
+          color: #ffa1a3;
+          font-weight: bold;
+          font-style: normal;
+          font-size: 100%;
+          text-align: center;
+          margin-bottom: 3px;
+        }
+      }
+    }
+  }
+}
 /*Aca Footer*/
 .contFooter {
   height: 10% !important;
