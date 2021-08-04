@@ -46,13 +46,13 @@
   }
 }
 /*Aca Main*/
-.ContMain {
+.contMain {
   height: 100% !important;
   .contPrin {
     .ConTextPrin {
       background-color: #ffa1a3;
       text-align: center;
-      margin-top: 10px;
+      margin-top: 5px;
       .tiltPrin {
         font-family: "Josefin Slab", serif;
         font-size: 250%;
@@ -64,7 +64,7 @@
         color: #ffffff;
         font-weight: bold;
         font-style: oblique;
-        font-size: 125%;
+        font-size: 100%;
       }
     }
   }
@@ -73,9 +73,10 @@
     margin-top: 5px;
     .ContBanco {
       .SubContBanco {
+        background-color: #ffa1a3;
         .titlBanco {
           font-family: "Josefin Slab", serif;
-          color: #ffa1a3;
+          color: #ffffff;
           font-weight: bold;
           font-size: 250%;
           margin-top: 10px;
@@ -84,7 +85,7 @@
         }
         .subTiltBanco {
           font-family: "Josefin Slab", serif;
-          color: #ffa1a3;
+          color: #ffffff;
           font-weight: bold;
           font-style: oblique;
           font-size: 125%;
@@ -92,7 +93,7 @@
         }
         .textBanco1 {
           font-family: "Josefin Slab", serif;
-          color: #ffa1a3;
+          color: #ffffff;
           font-weight: bold;
           font-style: normal;
           font-size: 150%;
@@ -100,12 +101,51 @@
         }
         .textBanco {
           font-family: "Josefin Slab", serif;
+          color: #ffffff;
+          font-weight: bold;
+          font-style: normal;
+          font-size: 100%;
+          text-align: center;
+          margin-bottom: 3px;
+        }
+      }
+    }
+    .ContDonaciones {
+      .SubContDonaciones {
+        .tiltDonaciones {
+          font-family: "Josefin Slab", serif;
+          color: #ffa1a3;
+          font-weight: bold;
+          font-size: 250%;
+          margin-top: 10px;
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+        .textDonaciones {
+          font-family: "Josefin Slab", serif;
           color: #ffa1a3;
           font-weight: bold;
           font-style: normal;
           font-size: 100%;
           text-align: center;
           margin-bottom: 3px;
+        }
+        .botAdopta {
+          margin: 10px;
+          padding: 2px;
+          font-family: "Josefin Slab", serif;
+          background-color: #ffa1a3;
+          border: none;
+          font-weight: bold;
+          font-size: 100%;
+          transition: all 1.5s ease;
+          &:hover {
+            border: none;
+            background-color: #ffc91f;
+            color: #ffa1a3;
+            border-radius: 3px;
+            box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
+          }
         }
       }
     }
@@ -121,16 +161,13 @@
   flex-direction: row;
   justify-content: space-around;
   .logFace {
-    margin: 5px;
-    padding: 2px;
+    margin: 3px;
   }
   .logInsta {
-    margin: 5px;
-    padding: 2px;
+    margin: 3px;
   }
   .logWp {
-    margin: 5px;
-    padding: 2px;
+    margin: 3px;
   }
   .Slogan {
     display: flex;

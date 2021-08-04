@@ -12227,7 +12227,11 @@ fieldset:disabled .btn {
 }
 
 /*Aca Main*/
-.contForm .formAdopcion {
+.contMain {
+  height: 100% !important;
+}
+
+.contMain .contForm .formAdopcion {
   margin-left: 40px;
   margin-top: 5px;
   height: 50%;
@@ -12248,7 +12252,7 @@ fieldset:disabled .btn {
           box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
 }
 
-.contForm .formAdopcion .titlFormAdopcion {
+.contMain .contForm .formAdopcion .titlFormAdopcion {
   color: #ffa1a3;
   font-family: "Josefin Slab", serif;
   font-size: 40px;
@@ -12259,7 +12263,7 @@ fieldset:disabled .btn {
   position: relative;
 }
 
-.contForm .formAdopcion .groupName {
+.contMain .contForm .formAdopcion .groupName {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12271,7 +12275,7 @@ fieldset:disabled .btn {
   position: relative;
 }
 
-.contForm .formAdopcion .inputNameForm {
+.contMain .contForm .formAdopcion .inputNameForm {
   background: none;
   font-size: 15px;
   padding: 0px 0px 5px 0px;
@@ -12283,12 +12287,12 @@ fieldset:disabled .btn {
   transition: all 0.5s ease;
 }
 
-.contForm .formAdopcion .inputNameForm:focus {
+.contMain .contForm .formAdopcion .inputNameForm:focus {
   outline-style: none;
   color: #ffc91f;
 }
 
-.contForm .formAdopcion .nombreForm {
+.contMain .contForm .formAdopcion .nombreForm {
   color: #ffa1a3;
   font-family: "Josefin Slab", serif;
   font-size: 20px;
@@ -12296,7 +12300,7 @@ fieldset:disabled .btn {
   font-weight: bolder;
 }
 
-.contForm .formAdopcion .groupMensaje {
+.contMain .contForm .formAdopcion .groupMensaje {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12308,7 +12312,7 @@ fieldset:disabled .btn {
   position: relative;
 }
 
-.contForm .formAdopcion .textareaForm {
+.contMain .contForm .formAdopcion .textareaForm {
   background: none;
   font-size: 15px;
   padding: 0px 0px 5px 0px;
@@ -12320,12 +12324,12 @@ fieldset:disabled .btn {
   transition: all 0.5s ease;
 }
 
-.contForm .formAdopcion .textareaForm:focus {
+.contMain .contForm .formAdopcion .textareaForm:focus {
   outline-style: none;
   color: #ffc91f;
 }
 
-.contForm .formAdopcion .mensajeForm {
+.contMain .contForm .formAdopcion .mensajeForm {
   color: #ffa1a3;
   font-family: "Josefin Slab", serif;
   font-size: 20px;
@@ -12333,7 +12337,7 @@ fieldset:disabled .btn {
   font-weight: bolder;
 }
 
-.contForm .formAdopcion .inputEnviarForm {
+.contMain .contForm .formAdopcion .inputEnviarForm {
   font-family: "Josefin Slab", serif;
   color: #ffffff;
   font-size: 15px;
@@ -12348,7 +12352,7 @@ fieldset:disabled .btn {
   cursor: pointer;
 }
 
-.contForm .formAdopcion .inputBorrarForm {
+.contMain .contForm .formAdopcion .inputBorrarForm {
   font-family: "Josefin Slab", serif;
   color: #ffffff;
   font-size: 15px;
@@ -12363,7 +12367,7 @@ fieldset:disabled .btn {
   cursor: pointer;
 }
 
-.titlUbic {
+.contMain .titlUbic {
   font-family: "Josefin Slab", serif;
   font-size: 250%;
   font-weight: bold;
@@ -12388,18 +12392,15 @@ fieldset:disabled .btn {
 }
 
 .contFooter .logFace {
-  margin: 5px;
-  padding: 2px;
+  margin: 3px;
 }
 
 .contFooter .logInsta {
-  margin: 5px;
-  padding: 2px;
+  margin: 3px;
 }
 
 .contFooter .logWp {
-  margin: 5px;
-  padding: 2px;
+  margin: 3px;
 }
 
 .contFooter .Slogan {
@@ -12480,37 +12481,79 @@ fieldset:disabled .btn {
 }
 
 /*Aca Main*/
-.ContMain {
+.contMain {
   height: 100% !important;
 }
 
-.ContMain .contPrin .ConTextPrin {
+.contMain .contPrin .ConTextPrin {
   background-color: #ffa1a3;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
-.ContMain .contPrin .ConTextPrin .tiltPrin {
+.contMain .contPrin .ConTextPrin .tiltPrin {
   font-family: "Josefin Slab", serif;
   font-size: 250%;
   font-weight: bold;
   color: #ffffff;
 }
 
-.ContMain .contPrin .ConTextPrin .textPrin {
+.contMain .contPrin .ConTextPrin .textPrin {
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 100%;
+}
+
+.contMain .contSec {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.contMain .contSec .ContBanco .SubContBanco {
+  background-color: #ffa1a3;
+}
+
+.contMain .contSec .ContBanco .SubContBanco .titlBanco {
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 250%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contMain .contSec .ContBanco .SubContBanco .subTiltBanco {
   font-family: "Josefin Slab", serif;
   color: #ffffff;
   font-weight: bold;
   font-style: oblique;
   font-size: 125%;
+  text-align: center;
 }
 
-.ContMain .contSec {
-  margin-bottom: 20px;
-  margin-top: 5px;
+.contMain .contSec .ContBanco .SubContBanco .textBanco1 {
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 150%;
+  text-align: center;
 }
 
-.ContMain .contSec .ContBanco .SubContBanco .titlBanco {
+.contMain .contSec .ContBanco .SubContBanco .textBanco {
+  font-family: "Josefin Slab", serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 100%;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.contMain .contSec .ContDonaciones .SubContDonaciones .tiltDonaciones {
   font-family: "Josefin Slab", serif;
   color: #ffa1a3;
   font-weight: bold;
@@ -12520,25 +12563,7 @@ fieldset:disabled .btn {
   margin-right: 10px;
 }
 
-.ContMain .contSec .ContBanco .SubContBanco .subTiltBanco {
-  font-family: "Josefin Slab", serif;
-  color: #ffa1a3;
-  font-weight: bold;
-  font-style: oblique;
-  font-size: 125%;
-  text-align: center;
-}
-
-.ContMain .contSec .ContBanco .SubContBanco .textBanco1 {
-  font-family: "Josefin Slab", serif;
-  color: #ffa1a3;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 150%;
-  text-align: center;
-}
-
-.ContMain .contSec .ContBanco .SubContBanco .textBanco {
+.contMain .contSec .ContDonaciones .SubContDonaciones .textDonaciones {
   font-family: "Josefin Slab", serif;
   color: #ffa1a3;
   font-weight: bold;
@@ -12546,6 +12571,27 @@ fieldset:disabled .btn {
   font-size: 100%;
   text-align: center;
   margin-bottom: 3px;
+}
+
+.contMain .contSec .ContDonaciones .SubContDonaciones .botAdopta {
+  margin: 10px;
+  padding: 2px;
+  font-family: "Josefin Slab", serif;
+  background-color: #ffa1a3;
+  border: none;
+  font-weight: bold;
+  font-size: 100%;
+  -webkit-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.contMain .contSec .ContDonaciones .SubContDonaciones .botAdopta:hover {
+  border: none;
+  background-color: #ffc91f;
+  color: #ffa1a3;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
+          box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.8);
 }
 
 /*Aca Footer*/
@@ -12566,18 +12612,15 @@ fieldset:disabled .btn {
 }
 
 .contFooter .logFace {
-  margin: 5px;
-  padding: 2px;
+  margin: 3px;
 }
 
 .contFooter .logInsta {
-  margin: 5px;
-  padding: 2px;
+  margin: 3px;
 }
 
 .contFooter .logWp {
-  margin: 5px;
-  padding: 2px;
+  margin: 3px;
 }
 
 .contFooter .Slogan {
@@ -12837,6 +12880,14 @@ fieldset:disabled .btn {
 }
 
 /*Aca Main*/
+.contMain {
+  height: 100% !important;
+}
+
+.contMain .contTotal .contHogar {
+  margin-top: 10px;
+}
+
 .contMain .contTotal .contHogar .tiltHogar {
   font-family: "Josefin Slab", serif;
   font-size: 350%;
@@ -12928,18 +12979,15 @@ fieldset:disabled .btn {
 }
 
 .contFooter .logFace {
-  margin: 5px;
-  padding: 2px;
+  margin: 3px;
 }
 
 .contFooter .logInsta {
-  margin: 5px;
-  padding: 2px;
+  margin: 3px;
 }
 
 .contFooter .logWp {
-  margin: 5px;
-  padding: 2px;
+  margin: 3px;
 }
 
 .contFooter .Slogan {

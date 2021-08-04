@@ -47,8 +47,10 @@
 }
 /*Aca Main*/
 .contMain {
+  height: 100% !important;
   .contTotal {
     .contHogar {
+      margin-top: 10px;
       .tiltHogar {
         font-family: "Josefin Slab", serif;
         font-size: 350%;
@@ -126,16 +128,13 @@
   flex-direction: row;
   justify-content: space-around;
   .logFace {
-    margin: 5px;
-    padding: 2px;
+    margin: 3px;
   }
   .logInsta {
-    margin: 5px;
-    padding: 2px;
+    margin: 3px;
   }
   .logWp {
-    margin: 5px;
-    padding: 2px;
+    margin: 3px;
   }
   .Slogan {
     display: flex;
